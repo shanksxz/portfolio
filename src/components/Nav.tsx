@@ -8,17 +8,17 @@ const Nav = () => {
         <nav className="px-6 py-4 md:px-20 flex items-center justify-end">
             <ul className='flex gap-5 justify-center items-center font-medium'>
                 <li>
-                    <a href="">
-                        Projects
-                    </a>
+                    Projects
                 </li>
                 <li>
-                    <a href="">
-                        Contact Me
-                    </a>
+                    Contact Me
                 </li>
                 <li>
-                    <a href="">
+                    <a 
+                        href="https://github.com/somyabhattcu1"
+                        target='_blank'
+                        rel='noopener noreferrer'    
+                    >
                         <FaGithub className='' size={30} />
                     </a>
                 </li>
